@@ -22,7 +22,7 @@ public class Employee extends Person {
     }
     
     public void print() {
-        System.out.printf("Name = %s, age = %d, sex = %s, salary = %d, experience = %d, isHappy = %b \n", this.name, this.age, this.sex, this.salary, this.experience, this.isHappy);
+        System.out.printf("Name = %s, Age = %d, Sex = %s, salary = %d, experience = %d, isHappy = %b \n", this.name, this.age, this.sex, this.salary, this.experience, this.isHappy);
     }
     
     public void setLaptop(Laptop laptop) {
